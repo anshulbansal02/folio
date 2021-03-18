@@ -1,0 +1,24 @@
+.top-navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 0;
+}
+
+.main-nav {
+    width: clamp(300px, 25%, 400px);
+}
+
+.nav-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.logo-wrapper h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
