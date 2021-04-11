@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/work.css">
 
     <title>Folio</title>
 </head>
@@ -23,19 +25,125 @@
     <section class="top-navigation container">
         <div class="logo-wrapper">
             <a href="/">
-                <h1>> Student</h1>
+                <h1>~ Student</h1>
             </a>
         </div>
 
         <nav class="main-nav">
             <ul class="nav-links">
+                <li><a href="#">My Work</a></li>
                 <li><a href="#">About Me</a></li>
-                <li><a href="#">My Projects</a></li>
                 <li><a href="#">Say Hi!</a></li>
             </ul>
         </nav>
     </section>
 
+    <nav class="floating-nav">
+        <ul class="nav-links">
+            <li><a href="#">My Work</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Say Hi!</a></li>
+        </ul>
+    </nav>
+
+    <section class="header">
+        <div class="container">
+            <div class="header-text">
+                <h5 class="greeting">Hey There!</h5>
+                <h2 class="big-heading">I’m Anshul Bansal</h2>
+                <h5 class="introduction">An undergraduate student at MSIT having a solid foundation in CS with a
+                    comprehensive skill set and
+                    excellent expertise in Web Design & Development.</h5>
+                <button class="btn">See my work</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+
+        <div class="side-bar-illustration content--canvas"></div>
+
+        <div class="project-slider">
+            <div class="project">
+                <div class="project-cover">
+                    <img src="./static/img/parkour.jpg" alt="Parkour App">
+                    <img src="./static/img/parkour-bw.jpg" alt="Parkour App">
+
+                    <div class="project-cover-title">
+                        <h3>Parkour</h3>
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <h3 class="project-details-title">Parkour</h3>
+                    <div class="project-details-description">
+                        <div class="project-meta">
+                            <p>April 2017</p>
+                            <p>React Native</p>
+                        </div>
+
+                        <p class="para">Parkour is a diet and workout plan-making and sharing
+                            cross-platform React Native app (under development) designed using Figma.
+                        </p>
+                        <p class="para">Did the designing work of UI in Figma and now currently
+                            programming it using React Native front end and a Nodejs back end.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-cover">
+                    <img src="./static/img/parkour.jpg" alt="Parkour App">
+                    <img src="./static/img/parkour1.jpg" alt="Parkour App">
+
+                    <div class="project-cover-title">
+                        <h3>TERA</h3>
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <h3 class="project-details-title">TERA</h3>
+                    <div class="project-details-description">
+                        <p class="para">Did the designing work of UI in Figma and now currently
+                            programming it using React Native front end and a Nodejs back end.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-cover">
+                    <img src="./static/img/parkour.jpg" alt="Parkour App">
+                    <img src="./static/img/parkour1.jpg" alt="Parkour App">
+
+                    <div class="project-cover-title">
+                        <h3>TERA</h3>
+                    </div>
+                </div>
+
+                <div class="project-details">
+                    <h3 class="project-details-title">TERA</h3>
+                    <div class="project-details-description">
+
+                        <p class="para">Did the designing work of UI in Figma and now currently
+                            programming it using React Native front end and a Nodejs back end.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div style="height: 100vh;"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+        integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+        crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 
 </html>
